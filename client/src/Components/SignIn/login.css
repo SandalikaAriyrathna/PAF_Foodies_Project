@@ -1,0 +1,96 @@
+.login {
+  height: 100vh;
+  background-image: url(../../assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .card {
+  width: 50%;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  min-height: 600px;
+  overflow: hidden;
+}
+.login .card .left {
+  flex: 1;
+  background: linear-gradient(rgb(0, 183, 255), rgb(0, 208, 255)), center;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  border-radius: 20px;
+}
+.login .card .left h1 {
+  font-size: 100px;
+  line-height: 100px;
+}
+.login .card .left img {
+  height: auto;
+  width: 300px;
+}
+.login .card .left p {
+  text-align: center;
+}
+.login .card .left span {
+  font-size: 14px;
+}
+.login .card .left button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: rgb(0, 217, 255);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.login .card .left button:hover {
+  background-color: #00d9ff; /* Green */
+  color: rgb(255, 255, 255);
+}
+.login .card .right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+.login .card .right h1 {
+  color: #000000;
+}
+.login .card .right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.login .card .right Input {
+  border: none;
+  border-bottom: 0.5px solid lightgray;
+  padding: 20px 10px;
+}
+.login .card .right button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #00ddff;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.login .card .right button:hover {
+  background-color: #00b7ff; /* Green */
+  color: white;
+} /*# sourceMappingURL=login.css.map */
